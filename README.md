@@ -4,7 +4,7 @@
   This project demonstrates the process of cleaning, standardizing, and deduplicating customer order data using SQL in Google BigQuery. It covers handling inconsistent data formats, missing values, and identifying duplicate orders through exact and fuzzy matching techniques.
 
 ## DATASET DESCRIPTION
-  The dataset used in this project was individually generated to simulate customer order records for a fictional retail company. It contains approximately 16 rows and includes fields such as order ID, customer name, email, order date, product name, quantity, price, country, order status, and notes.
+  The dataset used in this project was individually generated to simulate customer order records for a fictional retail company. It contains approximately 15 rows and includes fields such as order ID, customer name, email, order date, product name, quantity, price, country, order status, and notes.
 
 The dataset was intentionally created to include common data quality issues that often arise in real-world data, including:
 - Multiple inconsistent date formats (e.g., YYYY-MM-DD, MM/DD/YYYY, YYYY/MM/DD)
