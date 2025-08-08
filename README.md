@@ -24,7 +24,7 @@ This synthetic dataset provided a realistic scenario for testing data cleaning a
 - Tagged duplicates using window functions (ROW_NUMBER) for exact and loose matching.
 
 ## FINDINGS AND CHALLENGES
-  During the data cleaning process, several null or missing values were identified in key fields such as customer name, email, and price. These nulls were intentionally left in the non-deduplicated dataset because they require further investigation and validation by relevant stakeholders or other departments before removal or correction. This approach ensures that potentially important records are not prematurely discarded, maintaining data integrity and allowing for informed decision-making.
+  During the data cleaning process, several null or missing values were identified in key fields such as customer name, email, and price. These nulls were intentionally left in the dataset because they require further investigation and validation by relevant stakeholders or other departments before removal or correction. This approach ensures that potentially important records are not prematurely discarded, maintaining data integrity and allowing for informed decision-making.
 
   Additionally, duplicates were carefully tagged rather than immediately deleted to allow for review of edge cases where slight variations could represent valid distinctions. Handling inconsistent formats, especially in dates and product names, also presented challenges that were addressed with regex-based parsing and standardization techniques.
 
