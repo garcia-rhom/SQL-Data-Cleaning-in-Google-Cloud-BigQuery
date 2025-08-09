@@ -17,7 +17,7 @@ This synthetic dataset provided a realistic scenario for testing data cleaning a
 
 ## CLEANING AND TRANSFORMATION
 
-![Issues Log](queries/issues_log.png)
+![Issues Log](queries/issues_log/issues_log.png)
 
 - Standardized `order_status` into clear categories: Delivered, Pending, Shipped, etc.  
 - Normalized product names to a consistent format (e.g., "Apple Watch").  
