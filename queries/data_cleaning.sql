@@ -64,7 +64,8 @@ SELECT
     WHEN LOWER(order_status) LIKE '%deliver%' THEN 'Delivered'
     WHEN LOWER(order_status) LIKE '%pending%' THEN 'Pending'
     WHEN LOWER(order_status) LIKE '%ship%' THEN 'Shipped'
-      WHEN LOWER(order_status) LIKE '%refund%' THEN 'Refunded'
+    WHEN LOWER(order_status) LIKE '%refund%' THEN 'Refunded'
+    WHEN LOWER(order_status) LIKE '%return%' THEN 'Returned'
     ELSE 'Other'
   END AS cleaned_order_status,
 
