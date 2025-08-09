@@ -16,6 +16,9 @@ The dataset was intentionally created to include common data quality issues that
 This synthetic dataset provided a realistic scenario for testing data cleaning and deduplication techniques using BigQuery SQL.
 
 ## CLEANING AND TRANSFORMATION
+
+![Issues Log][queries\issues_log.png]
+
 - Standardized `order_status` into clear categories: Delivered, Pending, Shipped, etc.  
 - Normalized product names to a consistent format (e.g., "Apple Watch").  
 - Parsed various date formats into a single `YYYY-MM-DD` format using regex and BigQuery date functions.  
